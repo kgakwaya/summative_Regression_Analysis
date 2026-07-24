@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 import numpy as np
 from typing import List, Dict, Any
-from fastapi import FastAPI, HTTPException, Status, BackgroundTasks
+from fastapi import FastAPI, HTTPException, status, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from sklearn.linear_model import SGDRegressor
